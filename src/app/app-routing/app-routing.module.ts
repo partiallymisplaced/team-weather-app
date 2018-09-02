@@ -2,11 +2,12 @@ import { NgModule } from '@angular/core';
     import { RouterModule, Routes } from '@angular/router';
     import { CurrentWeatherComponent } from '../current-weather/current-weather.component'
     import { AppComponent } from '../app.component'
+    import { SearchComponent } from '../search/search.component'
 
     const routes: Routes = [
         {
             path: '',
-            component: AppComponent,
+            component: SearchComponent,
         },
         {
           path: 'current-weather/:city',
