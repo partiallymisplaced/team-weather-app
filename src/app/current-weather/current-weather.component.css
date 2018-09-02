@@ -25,6 +25,8 @@
     height: 3px;
     width: 28%;
     margin: 0 auto;
+    border-radius: 1.5px; 
+    margin: 2em auto;
 }
 
 #grades{
