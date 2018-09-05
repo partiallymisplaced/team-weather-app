@@ -3,9 +3,10 @@
   div {
    padding: 80px;
    text-align: center;
+   
   
   
-}
+} 
   input{
     padding: 15px 20px;
     width: 100%;
@@ -29,6 +30,7 @@
 
     
   }
+
   ::placeholder {
 
     color: #A4A4A4;
@@ -38,3 +40,19 @@
   p,h1{
       margin-bottom: 25px;
   }
+@media(max-width:768px){
+  h1{
+    font-size: 5vw;
+  }
+ p{
+   font-size: 4vw;
+ }
+ }
+@media(max-width: 772px){
+  button{
+    position: absolute;
+    top: 43%;
+    left: 73%;
+    
+  }
+}
