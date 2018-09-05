@@ -1,19 +1,19 @@
 
   
   div {
-    margin: 90px auto;
-    width: 60%;
-    padding: 10px;
+   padding: 80px;
+   text-align: center;
+  
   
 }
   input{
-    padding: 0 20px;
-    height: 45px;
-    width: 350px;
-    border-radius: 50px; 
-    margin-left:230px;
-    
-    
+    padding: 15px 20px;
+    width: 100%;
+    border-radius: 30px;
+    font-size: 1.5em;
+    /* margin-left:230px; */
+    border:none;
+    max-width: 400px;
   }
   button{
     
@@ -24,6 +24,8 @@
     left: -40px;
     font-size: 1.5rem;
     margin-top: 19px;
+    
+
 
     
   }
@@ -32,13 +34,7 @@
     color: #A4A4A4;
     font-size: 1rem;
   }
-  h1{
-    margin-left:270px
-      }
-  p{
-    margin-left:290px;
-  } 
+   
   p,h1{
       margin-bottom: 25px;
   }
-

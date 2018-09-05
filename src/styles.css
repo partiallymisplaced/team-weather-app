@@ -5,7 +5,9 @@
 }
 html, body{
     height: 100%;
-    background-image: linear-gradient(140deg,#4E39E2,#2CB2D1);
+    /* background-image: linear-gradient(140deg,#4E39E2,#2CB2D1); */
+    background-color: #1C0853;
+    background: linear-gradient(140deg, #1C0853, #4E39E2);
     font-family: 'Varela Round', sans-serif;
     color: #FFFFFF;
 }
