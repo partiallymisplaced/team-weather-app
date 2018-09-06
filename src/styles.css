@@ -1,10 +1,11 @@
+
 /* You can add global styles to this file, and also import other style files */
 * {
     margin: 0;
     padding: 0;
 }
+
 html {
-    height: 100%;
 } 
 
 body {
@@ -14,10 +15,10 @@ body {
     background: linear-gradient(140deg,#4E39E2,#2CB2D1);
     background-repeat: no-repeat;
     background-attachment: fixed;
-
 }
 
 .night-color {
     background-color: #1C0853;
     background: linear-gradient(140deg, #1C0853, #4E39E2);
-  }
+}
+

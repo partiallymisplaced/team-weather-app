@@ -1,0 +1,64 @@
+
+div {
+  padding: 80px;
+  text-align: center;
+ 
+ } 
+ input{
+   padding: 15px 20px;
+   width: 100%;
+   border-radius: 30px;
+   font-size: 1.5em;  
+   border:none;
+   color: #4E39E2;
+   max-width: 400px;
+   font-family: 'Varela Round', sans-serif;
+ }
+ button{
+   
+   position: relative;
+   border: none;
+   background-color: white;
+   color: #4E39E2;
+   left: -46px;
+   font-size: 24px;
+   margin-top: 19px;
+   cursor: pointer;  
+ }
+ 
+ ::placeholder {
+   padding-left: 2px;
+   color: #A4A4A4;
+ 
+ }
+ h1{
+   font-weight: normal;
+   font-size: 48px;
+ }
+ p{
+ font-size: 24px;
+ }
+ p,h1{
+     margin-bottom: 25px;
+ }
+ @media(max-width:768px){
+ h1{
+   font-size: 5vw;
+ }
+ p{
+  font-size: 4vw;
+ }
+ }
+ @media(max-width: 632px){
+ button{
+   position: relative;
+   margin-left: -20px;
+   top: -60px;
+   left: 45%;
+   
+ }
+   input{
+     font-size: 12px;
+   }
+ }
+ 
