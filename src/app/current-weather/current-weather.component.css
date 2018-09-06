@@ -1,3 +1,5 @@
+
+
 .small{
     color: white;
     font-size: 1.5em;
@@ -9,14 +11,13 @@
     color: white;
     font-size: 3em;
     text-align: center;
-    margin: .5em;
+    margin: .6em;
 }
 #container{
-    margin-top: 4em;
     text-align: center;
 }
 #icon{
-    font-size: 2.5em;
+    font-size: 1.5em;
     margin-top: .2em;
 }
 
@@ -26,12 +27,11 @@
     width: 28%;
     margin: 0 auto;
     border-radius: 1.5px; 
-    margin: 2em auto;
+    margin: 1em auto;
 }
 
 #grades{
-    font-size: 2em;
-    margin: .2em .4em;
+    font-size: 1.5em;
 }
 
 #search-again-button{
@@ -43,8 +43,34 @@
         border-radius: 30px;
         cursor: pointer;
         text-decoration: none;
+        margin: 1em auto 4em;
+        display: block;
+        width: 20%;
+    
 }
 
 #button-container{
-    margin-top: 2em;
+    margin: 5em;
+}
+
+@media only screen and (max-width: 600px) {
+    .small{
+        font-size: .9em;
+        margin-bottom: .4em;
+    }
+
+    .big{
+        font-size: 1.8em;
+    }
+    #grades{
+        font-size: 1.5em;
+    }
+
+    #icon{
+        font-size: 2em;
+    }
+    #search-again-button{
+        font-size: .9em;
+        width: 35%;
+    }
 }
