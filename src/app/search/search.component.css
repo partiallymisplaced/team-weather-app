@@ -1,58 +1,75 @@
 
+/* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  padding: 0;
+}
+html, body{
+  height: 100%;
+  background-image: linear-gradient(140deg,#4E39E2,#2CB2D1);
   
-  div {
-   padding: 80px;
-   text-align: center;
-   
-  
-  
+  font-family: 'Varela Round', sans-serif;
+  color: #FFFFFF;
+}
+/*  style css */
+
+div {
+ padding: 80px;
+ text-align: center;
+ 
+
+
 } 
-  input{
-    padding: 15px 20px;
-    width: 100%;
-    border-radius: 30px;
-    font-size: 1.5em;
-    /* margin-left:230px; */
-    border:none;
-    max-width: 400px;
-  }
-  button{
-    
-    position: relative;
-    border: none;
-    background-color: white;
-    color: #4E39E2;
-    left: -40px;
-    font-size: 1.5rem;
-    margin-top: 19px;
-    
+input{
+  padding: 15px 20px;
+  width: 100%;
+  border-radius: 30px;
+  font-size: 1.5em;  
+  border:none;
+  max-width: 400px;
+}
+button{
+  
+  position: relative;
+  border: none;
+  background-color: white;
+  color: #4E39E2;
+  left: -46px;
+  font-size: 24px;
+  margin-top: 19px;
+  
 
 
-    
-  }
+  
+}
 
-  ::placeholder {
-
-    color: #A4A4A4;
-    font-size: 1rem;
-  }
-   
-  p,h1{
-      margin-bottom: 25px;
-  }
+::placeholder {
+  padding-left: 2px;
+  color: #A4A4A4;
+  font-size: 24px;
+}
+h1{
+  font-size: 48px;
+}
+p{
+font-size: 24px;
+}
+p,h1{
+    margin-bottom: 25px;
+}
 @media(max-width:768px){
-  h1{
-    font-size: 5vw;
-  }
- p{
-   font-size: 4vw;
- }
- }
-@media(max-width: 772px){
-  button{
-    position: absolute;
-    top: 43%;
-    left: 73%;
-    
-  }
+h1{
+  font-size: 5vw;
+}
+p{
+ font-size: 4vw;
+}
+}
+@media(max-width: 632px){
+button{
+  position: relative;
+  top: -30px;
+  left: 70%;
+  
+}
 }
