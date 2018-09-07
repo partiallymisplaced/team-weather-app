@@ -1,10 +1,11 @@
+
 /* You can add global styles to this file, and also import other style files */
 * {
     margin: 0;
     padding: 0;
 }
+
 html {
-    height: 100%;
 } 
 
 body {
@@ -14,7 +15,6 @@ body {
     background: linear-gradient(140deg,#4E39E2,#2CB2D1);
     background-repeat: no-repeat;
     background-attachment: fixed;
-
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -25,3 +25,4 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #1C0853;
     background: linear-gradient(140deg, #1C0853, #4E39E2);
 }
+
